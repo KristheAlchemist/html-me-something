@@ -1,0 +1,93 @@
+p {
+  color: #383838;
+  font-family: 'Montserrat'
+}
+
+header div {
+  border: 1px solid #383838;
+  background-color: #9c0000;
+  height: 77px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+
+}
+
+header a {
+  font-size: 22.5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #D2B48C;
+  text-decoration: none;
+  padding: 22px;
+  display: inline-block;
+}
+
+header a:hover {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+header div {
+  text-align: center;
+}
+
+body {
+  background-color: #D2B48C;
+  margin-top: 88px;
+}
+
+#container {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 66px;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+#profile-pic {
+  height: 222px;
+  width: auto;
+  position: relative;
+  top: 82px;
+  left: 66%;
+  float: left;
+  z-index: 1;
+}
+
+#lorem {
+  color: #383838;
+  font-size: 22px;
+  clear: right;
+  overflow: auto;
+}
+
+.contact-info p {
+  color: #383838;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 82px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  height: 66px;
+  margin-top: -66px;
+  clear: both;
+}
+
+footer a {
+  display: inline-block;
+  padding: 11px;
+}
+
+.logo {
+  fill: #9C0000;
+  display: inline-block;
+  border: auto;
+ }
