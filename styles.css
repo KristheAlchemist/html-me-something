@@ -32,6 +32,10 @@ header div {
   text-align: center;
 }
 
+#underline {
+  text-decoration: underline;
+}
+
 body {
   background-color: #D2B48C;
   margin-top: 88px;
